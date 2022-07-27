@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+
+}
+
+
+body {
+    background-color: rgb(5, 5, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+}
+
+.section-box {
+    background-color: rgb(12, 9, 46);
+    display: flex;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.text-section {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
+    margin-left: 80px;
+
+}
+
+.purple {
+    color: purple;
+}
+
+
+.tint {
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+
+.tint:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(107, 19, 148, 0.616);
+}
+
+
+.description {
+    font-size: 19px;
+    color: grey;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.item {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.stats {
+    font-size: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+
+}
+
+.label {
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 15px;
+
+}
+
+.row {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
